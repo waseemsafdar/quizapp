@@ -5,9 +5,54 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #F5F7FB;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.App .appinner{
+  max-width: 600px;
+  padding: 5%
+}
+.startquiz{
+  background: #4D5B9E;
+    border: #4D5B9E;
+    padding: 15px 22px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.answers button{
+  background-color: #ffffff00;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgb(77, 91, 158);
+  border-radius: 12px;
+  font-size: 12px;
+  padding: 7px 15px;
+   
+}
+.answers{
+  display: flex;
+    gap: 20px;
+}
+.question p{
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 19px;
+  text-align: left;
+}
+
+
+.lastbtn{
+  margin-top: 50px;
 }
